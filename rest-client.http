@@ -9,6 +9,15 @@ GET http://localhost:3000/songs/1
 
 ### Create, Update, Delete
 POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+  "releaseDate": "2019-01-01",
+  "duration": "03:30",
+  "artist": "Artist",
+  "title": "Song Title",
+  "artists": ["Artist 1, Artist 2"]
+}
 
 ### Update
 PUT http://localhost:3000/songs/1
