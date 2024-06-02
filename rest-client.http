@@ -1,0 +1,19 @@
+### Setup
+GET http://localhost:3000
+
+### Songs
+GET http://localhost:3000/songs
+
+### Song
+GET http://localhost:3000/songs/1
+
+### Create, Update, Delete
+POST http://localhost:3000/songs
+
+### Update
+PUT http://localhost:3000/songs/1
+
+
+### Delete
+DELETE http://localhost:3000/songs/1
+
